@@ -1,0 +1,269 @@
+
+* {
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 16px;
+}
+a, a:link{
+  text-decoration: none;
+  outline: none;
+  color:#292727;
+}
+// a:visited{
+//   color:#F4AC33;
+// }
+
+a:hover{
+  text-decoration: none;
+   color: #F4AC33;
+}
+// a:active{
+//   color:#F4AC33;
+// }
+
+h5{
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.navbar-collapse {
+  justify-content: center;
+}
+
+.nav {
+  padding: 3px;
+  text-align: center;
+  justify-content: space-between;
+}
+.nav-brand span {
+  font-size:24px;
+  font-weight: bold;
+  color:#F4AC33;
+}
+.menu a{
+  color:#e8ede9;
+}
+.menu {
+  column-gap: 45px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.menu-item{
+  font-size:19px;
+  color:#F4AC33;
+  text-align: center;
+  padding:0 12px;
+}
+
+.nav-btn {
+  column-gap: 20px;
+  justify-content: right;
+  margin-bottom: 10px;
+}
+.btn-cart i{
+  color:#F4AC33;
+  font-size: 24px;
+}
+.btn-login i{
+  color:#F4AC33;
+  font-size: 24px;
+}
+
+// @media (max-width: 768px) {
+//   .desktop-only {
+//     display: none;
+//     position: absolute;
+//   }
+// }
+
+// .mobile-menu {
+//   position: fixed;
+//   top: 0;
+//   left: 0;
+//   right: 0;
+//   width: 100%;
+//   height: auto;
+//   transform: translateX(-100%);
+//   background-color: rgb(159, 159, 145);
+//   transition: 0.5s;
+
+
+//   &.show {
+//     transform: translateX(0);
+//   }
+
+//   .menu-item {
+//     text-align: center;
+//   }
+// }
+
+ 
+// $mobile-width: 769px;  
+ 
+// @mixin mobile {
+//   @media (min-width: $mobile-width) {
+//     @content
+//   }   
+// }   
+// .mobile-only {
+//   @include mobile {
+//     display: none
+//   }
+// }
+
+
+.card{
+  margin: 10px;
+}
+.card-body{
+  background-color:#F4AC33;
+}
+
+.heading-container{
+  justify-content:center;
+  padding: 25px;
+  border-top: 2px solid rgb(215, 210, 210);
+
+}
+.allFood a{
+  display: inline-block;
+  padding: 7px 30px;
+  background-color:#231909;
+  color: #f6f0f0;
+  border-radius: 5px;
+  border: 2px solid #121212;
+
+}
+@media (max-width: 768px) {
+  .bestSell .card{
+    flex: 0 0 100%;
+    max-width: 100%;
+
+  }
+}
+
+// 本月精選
+
+.limitedMeal .box {
+  margin:10px;
+  color: #292727;
+}
+.limitedMeal .img-box img {
+  width: 400px;
+  height: 400px;
+  object-fit: contain;
+}
+.img-box img:hover {
+  transform: scale(1.8);
+}
+
+.limitedMeal .img-box {
+  width: 400px;
+  height: 400px;
+  margin: 3px;
+  overflow: hidden;
+}
+.limitedMeal .box .detail-box {
+  padding: 25px;
+}
+
+@media (max-width: 768px) {
+  .limitedMeal .col-md-6 {
+      flex: 0 0 100%;
+      max-width: 100%;
+  }
+}
+
+
+
+
+// About us 關於我們
+.aboutUs{
+  height: 500px;
+  background-color:#e8ede9;
+  
+}
+.about-img img{
+  width: auto;
+  height: 500px;
+  object-fit: contain;
+}
+
+
+@media (max-width: 768px) {
+  .aboutUs .col-md-6 {
+      flex: 0 0 100%;
+      max-width: 100%;
+  }
+  .aboutUs .heading-container{
+    border-top: none;
+  }
+}
+
+//食譜
+
+.cook .box {
+  margin-top: 55px;
+  background-color:#F4AC33;
+  color: #292727;
+}
+.cook .img-box img {
+  width: 500px;
+  height: 350px;
+  object-fit: contain;
+}
+.cook .img-box {
+  width: 500px;
+  height: 350px;
+  margin: 10px;
+  
+  overflow: hidden;
+}
+.cook .box .detail-box {
+  padding: 25px;
+}
+
+h5 {
+  font-weight: bold;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+
+.cook .box .detail-box a {
+  display: inline-block;
+  padding: 7px 30px;
+  background-color:#231909;
+  color: #f6f0f0;
+  border-radius: 5px;
+  border: 2px solid #121212;
+}
+
+@media (min-width: 768px){
+.aboutUs {
+    display: block;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+}
+
+//contact
+.info{
+  background-color: #0b0701eb;
+}
+
+
+
+
